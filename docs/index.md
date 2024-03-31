@@ -91,7 +91,7 @@ Even though this is bad, it is not going to add any delay.
 
 ### Wiring of the steering wheel
 
-![Wiring scheme of the steering wheel](/PortableArcade/docs/assets/wheel_circuit.png)
+![Wiring scheme of the steering wheel](/docs/assets/wheel_circuit.png)
 
 **It is worth noting that resistors might not be needed when using PULL_UP input mode of the Arduino**
 
@@ -107,7 +107,7 @@ is incremented by 1, to the left i is decremented by 1. Depending of the value o
 
 ### Wiring of the glove
 
-![Wiring scheme of the glove](/PortableArcade/docs/assets/glove_circuit.png)
+![Wiring scheme of the glove](/docs/assets/glove_circuit.png)
  				 
 ## Raspberry Pi
 
@@ -118,7 +118,7 @@ For this project, we used Retropie to run the emulators. Please follow this link
 2. [Python-Uinput](https://github.com/tuomasjjrasanen/python-uinput)
 3. [Py-Udev](https://pyudev.readthedocs.io/en/latest/) 
 
-![Retropie Installation](/PortableArcade/docs/assets/rbpi_imager.gif)
+![Retropie Installation](/docs/assets/rbpi_imager.gif)
 
 
 ### Main.py 
@@ -148,7 +148,7 @@ To add games to your installation, please follow [this link](https://retropie.or
 
 This section is a quick tutorial to enable the automatic startup of the ```main.py``` script. When booted in emulationstation, go the the emulation station settings -> Configuration/tools -> autostart
 
-![Autostart menu](/PortableArcade/docs/assets/autostart.png)
+![Autostart menu](/docs/assets/autostart.png)
 
 Choose menu E -> manually edit the autostart.sh.
 Before the ```emulationstation``` line add the following line :
@@ -174,23 +174,23 @@ Here is a non-exhaustive list of the parts that are available in the repository:
 
 ### Steering Wheel
 
-![Steering Wheel animation](/PortableArcade/docs/assets/steering.gif)
+![Steering Wheel animation](/docs/assets/steering.gif)
 
 ### Steering Wheel Lever
 
-![Steering Wheel lever animation](/PortableArcade/docs/assets/lever.gif)
+![Steering Wheel lever animation](/docs/assets/lever.gif)
 
 ### Joystick
 
-![Joystick](/PortableArcade/docs/assets/joy.gif)
+![Joystick](/docs/assets/joy.gif)
 
 ### Joystick box
 
-![Joystick and Buttons box](/PortableArcade/docs/assets/joystick.gif)
+![Joystick and Buttons box](/docs/assets/joystick.gif)
 
 ### Glove 3D
 
-![Glove 3D](/PortableArcade/docs/assets/gant3d.png)
+![Glove 3D](/docs/assets/gant3d.png)
 
 ## Laser cutted parts
 Our main box and the box holding the steering wheel are being made with a laser cutter. The following section will show all the sketches done in fusion 360 needing to be exported as dxf files.
@@ -202,11 +202,11 @@ The material used for these two components is MDF(wood) of thickness 6mm and 8 m
 
 ### Main box
 
-![Main box](/PortableArcade/docs/assets/box.gif)
+![Main box](/docs/assets/box.gif)
 
 ### Everything together
 
-![All](/PortableArcade/docs/assets/full.gif)
+![All](/docs/assets/full.gif)
 
 # Conclusion and thanks
 

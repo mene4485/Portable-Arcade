@@ -87,7 +87,7 @@ Even though this is bad, it is not going to add any delay.
 
 ### Wiring of the joystick and buttons
 
-![Wiring scheme of the joystick](/PortableArcade/docs/assets/joystick_circuit.png)
+![Wiring scheme of the joystick](/docs/assets/joystick_circuit.png)
 
 ### Wiring of the steering wheel
 
